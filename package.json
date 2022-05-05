@@ -1,0 +1,52 @@
+{
+  "name": "transcribair",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "prettier --check '**/*.{ts,tsx,js,jsx,vue}'",
+    "format": "prettier --write '**/*.{ts,tsx,js,jsx,vue}'"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "@headlessui/vue": "^1.6.1",
+    "@heroicons/vue": "^1.0.6",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "@vitejs/plugin-vue": "^2.3.2",
+    "autoprefixer": "^10.4.7",
+    "jest": "^28.0.3",
+    "postcss": "^8.4.13",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.24",
+    "ts-jest": "^28.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.8",
+    "vue-tsc": "^0.34.11"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": ".",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "./coverage",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/"
+    ]
+  }
+}
