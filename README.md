@@ -3,7 +3,9 @@
 ![OSU College of Engineering](images/osucoe.png)
 
 This repository houses the code for the 2022 Airport Cooperative Research
-Program (ACRP) Design Competition paper titled "".
+Program (ACRP) Design Competition paper titled "Improving Pilot-Controller
+Communication Through the Use of Artificial Intelligence for Real-Time Radio
+Analysis".
 
 ## Tranmission Parsing
 
